@@ -16,3 +16,7 @@ document.querySelector('#linkedin').addEventListener('click', function() {
 document.querySelector('#github').addEventListener('click', function() {
     window.open('https://github.com/JuanZolezzi?tab=repositories', '_blank');
 });
+
+document.querySelector('#whatsapp').addEventListener('click', function() {
+    window.open('https://wa.me/1164484170', '_blank');
+});
