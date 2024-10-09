@@ -208,6 +208,10 @@ section{
     gap: 2rem;
 }
 
+.projects{
+    padding: 7rem 2%;
+}
+
 .grid-card{
     border: 2px solid black;
     border-radius: 3rem;
@@ -253,7 +257,7 @@ section{
 
 .projects-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -296,6 +300,37 @@ section{
 .project-card h3{
     font-size: 2rem;
     font-weight: 500;
+}
+
+/* Proyectos adicionales ocultos inicialmente */
+.more-projects {
+    display: none;
+}
+
+.more-projects{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+/* Botón para mostrar más proyectos */
+#toggleButton {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    margin: 70px auto;
+    display: block;
+}
+
+#toggleButton:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .input-box{
@@ -389,6 +424,18 @@ footer ul li a{
 
     .input-box i{
         font-size: 2.5rem;
+    }
+
+    .project-card img {
+        width: 25vw;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width:1000px){
+    .project-card img {
+        width: 40vw;
+        border-radius: 1rem;
     }
 }
 
@@ -490,6 +537,25 @@ footer ul li a{
 
     footer ul{
         gap:1rem;
+    }
+
+    .project-card img {
+        width: 80vw;
+        border-radius: 1rem;
+    }
+
+    .project-card{
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width:658px){
+    .project-card img{
+        width: 80vw;
+    }
+
+    .project-card{
+        padding: 1rem;
     }
 }
 
