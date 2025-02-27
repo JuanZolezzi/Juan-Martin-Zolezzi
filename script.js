@@ -165,12 +165,12 @@ document.querySelector('#mario-repo').addEventListener('click', function() {
     window.open('https://github.com/JuanZolezzi/MarioBros/', '_blank');
 });
 
-document.querySelector('#ruleta').addEventListener('click', function() {
-    window.open('https://juanzolezzi.github.io/Ruleta/', '_blank');
+document.querySelector('#ride').addEventListener('click', function() {
+    window.open('https://juanzolezzi.github.io/Ride/', '_blank');
 });
 
-document.querySelector('#ruleta-repo').addEventListener('click', function() {
-    window.open('https://github.com/JuanZolezzi/Ruleta/', '_blank');
+document.querySelector('#ride-repo').addEventListener('click', function() {
+    window.open('https://github.com/JuanZolezzi/Ride/', '_blank');
 });
 
 document.querySelector('#serpiente').addEventListener('click', function() {
